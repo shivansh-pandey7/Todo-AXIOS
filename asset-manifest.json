@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Todo-AXIOS/static/css/main.2a7e6894.css",
+    "main.js": "/Todo-AXIOS/static/js/main.f7197708.js",
+    "static/js/787.314f848b.chunk.js": "/Todo-AXIOS/static/js/787.314f848b.chunk.js",
+    "static/media/logo.svg": "/Todo-AXIOS/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Todo-AXIOS/index.html",
+    "main.2a7e6894.css.map": "/Todo-AXIOS/static/css/main.2a7e6894.css.map",
+    "main.f7197708.js.map": "/Todo-AXIOS/static/js/main.f7197708.js.map",
+    "787.314f848b.chunk.js.map": "/Todo-AXIOS/static/js/787.314f848b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a7e6894.css",
+    "static/js/main.f7197708.js"
+  ]
+}
