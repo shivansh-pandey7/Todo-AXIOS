@@ -45,13 +45,13 @@ function App() {
   // axios.delete('http://localhost:3000/posts/1');
   return (
     <div className="App">
-      <div className='app_container'>
+      {loading ? <LoadingIndicator/> :<div className='app_container'>
         <div className='app_todoContainer'>
-            {loading ? <LoadingIndicator/> :todoList.map(item => <TodoItem deleteTodo={getLatestList}  title={item.title} key={item.id} id={item.id}/>)}
+            {todoList.map(item => <TodoItem deleteTodo={getLatestList}  title={item.title} key={item.id} id={item.id}/>)}
 
         </div>
         <Input updateList={getLatestList}/>
-      </div>
+      </div>}
     </div>
   );
 }
